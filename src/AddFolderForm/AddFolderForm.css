@@ -1,0 +1,15 @@
+form {
+    color: rgb(241, 236, 236);
+    font-size: 30px;
+}
+
+fieldset button {
+    margin-left: 10px;
+    font-size: 15px
+}
+
+fieldset input {
+    margin-left: 10px;
+    font-size: 20px;
+}
+    
