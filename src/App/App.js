@@ -2,7 +2,6 @@ import React, {Component} from 'react';
 import {Route, Link} from 'react-router-dom';
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
 import NoteListNav from '../NoteListNav/NoteListNav';
-import NotePageNav from '../NotePageNav/NotePageNav';
 import NoteListMain from '../NoteListMain/NoteListMain';
 import NotePageMain from '../NotePageMain/NotePageMain';
 import AddFolderForm from '../AddFolderForm/AddFolderForm';
@@ -75,6 +74,7 @@ class App extends Component {
                 ))}
                 <Route path="/note/:noteId" component={AddNoteButtonBack} />
                 <Route path="/add-folder" component={AddFolderButtonBack} />
+                <Route path="/add-note" component={AddNoteButtonBack} />
 
             </>
         );
@@ -93,7 +93,6 @@ class App extends Component {
                 ))}
                 <Route path="/note/:noteId" component={NotePageMain} />
                 <Route path="/add-folder" component={AddFolderForm} />
-                <Route path="/note/:noteId" component={AddNoteButtonBack} />
                 <Route path="/add-note" component={AddNoteForm} />
             </>
         );

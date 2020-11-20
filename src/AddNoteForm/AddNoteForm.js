@@ -56,7 +56,7 @@ class AddNoteForm extends Component {
 
         const options = {
             method: 'POST',
-            header: {
+            headers: {
                 'Content-Type': 'application/json'
             },
             body: newNote

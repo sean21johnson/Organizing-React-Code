@@ -1,14 +1,35 @@
 fieldset {
     display: flex;
     flex-direction: column;
-    margin: 10px
+    margin: 10px;
 }
 
 fieldset button {
-    width: 10%;
+    width:100px;
+    height: 40px;
     margin: 25px;
+    margin-left: 10px;
 }
 
 fieldset label {
     margin: 10px
+}
+
+fieldset select {
+    margin: 5px;
+    width: 250px;
+    height: 25px;
+    margin-left: 10px;
+}
+
+fieldset textarea {
+    margin: 5px;
+    width: 500px;
+    height: 150px;
+    margin-left: 10px;
+}
+
+fieldset input {
+    margin: 10px;
+    width: 250px;
 }
