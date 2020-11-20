@@ -1,6 +1,6 @@
 NOTEFUL APP
 
-Create notes and save them in folders!
+Create notes and save them in specific folders!
 
 In this application, our user has the ability to:
 
@@ -8,7 +8,7 @@ In this application, our user has the ability to:
     -Filter notes based on the folder they belong to
     -Add a new folder
     -Add a new note with a name, folder, and description
-    -Delte a note at any time
+    -Delete a note at any time
     -View error boundary displaying rendering errors
     -View errors during the API fetch request process
 
