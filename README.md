@@ -15,7 +15,7 @@ In this application, our user has the ability to:
 I utilized the below in creating this React application:
 
     -Create-React-App
-    -Controlled forms
+    -Controlled Forms
     -Error Boundaries
     -PropTypes
     -BrowserRouter Component
